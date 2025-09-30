@@ -60,6 +60,8 @@ For DKD:
   ```bash
   python3 tools/train.py --cfg configs/imagenet/r34_r18/dkd.yaml
   ```
+For CTKD & LSKD:
+Download [CTKD](<https://github.com/zhengli97/CTKD>) and [LSKD](<https://github.com/sunshangquan/logit-standardization-KD>).
 
 ## Citation
 
