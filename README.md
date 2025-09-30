@@ -25,7 +25,7 @@ sudo python3 setup.py develop
 
 1. Training on CIFAR-100
 
-- Download the `cifar_teachers.tar` at <https://github.com/megvii-research/mdistiller/releases/tag/checkpoints> and untar it to `./download_ckpts` via `tar xvf cifar_teachers.tar`.
+Download the `cifar_teachers.tar` at <https://github.com/megvii-research/mdistiller/releases/tag/checkpoints> and untar it to `./download_ckpts` via `tar xvf cifar_teachers.tar`.
   
 For KD:
   ```bash
@@ -38,7 +38,7 @@ For DKD:
 
 2. Training on ImageNet
 
-- Download the dataset at <https://image-net.org/> and put them to `./data/imagenet`.
+Download the dataset at <https://image-net.org/> and put them to `./data/imagenet`.
   
 For KD:
   ```bash
