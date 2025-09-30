@@ -1,6 +1,8 @@
 # Parameter-Free Logit Distillation via Sorting Mechanism [IEEE SPL'25]
 [![](https://img.shields.io/badge/arXiv-2508.16544-green.svg)](https://arxiv.org/abs/2508.16544) [![](https://img.shields.io/badge/paper-ieee.spl-red.svg)](https://ieeexplore.ieee.org/document/11141360/)
 
+<div style="text-align:center"><img src="img/intro.png" width="50%" ></div>
+
 ### Abstract
 ---
 > Knowledge distillation (KD) aims to distill the knowledge from the teacher (larger) to the student (smaller) model via soft-label for the efficient neural network. In general, the performance of a model is determined by accuracy, which is measured with labels. However, existing KD approaches usually use the teacher with its original distribution, neglecting the potential of incorrect prediction. This may contradict the motivation of hard-label learning through cross-entropy loss, which may lead to sub-optimal knowledge distillation on certain samples. To address this issue, we propose a novel logit processing scheme via a sorting mechanism. Specifically, our method has a two-fold goal: (1) fixing the incorrect prediction of the teacher based on the labels and (2) reordering the distribution in a natural way according to priority rank at once. As an easy-to-use, plug-and-play pre-processing, our sort method can be effectively applied to existing logit-based KD methods. Extensive experiments on the CIFAR-100 and ImageNet datasets demonstrate the effectiveness of our method.
