@@ -23,7 +23,7 @@ Install the package:
 
 ```
 sudo pip3 install -r requirements.txt
-sudo python3 setup.py develop
+sudo python setup.py develop
 ```
 
 ## Getting started
