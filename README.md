@@ -14,3 +14,17 @@ Install the package:
 sudo pip3 install -r requirements.txt
 sudo python3 setup.py develop
 ```
+
+# Citation
+
+If this repo is helpful for your research, please consider citing the paper:
+
+```BibTeX
+@article{sortkd25,
+  title={Parameter-Free Logit Distillation via Sorting Mechanism},
+  author={Limantoro, Stephen Ekaputra},
+  journal={IEEE Signal Processing Letters},
+  year={2025},
+  publisher={IEEE}
+}
+```
