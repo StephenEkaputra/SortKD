@@ -3,15 +3,15 @@
 
 <div style="text-align:center"><img src="img/intro.png" width="50%" ></div>
 
-### Abstract
+## Abstract
 ---
 > Knowledge distillation (KD) aims to distill the knowledge from the teacher (larger) to the student (smaller) model via soft-label for the efficient neural network. In general, the performance of a model is determined by accuracy, which is measured with labels. However, existing KD approaches usually use the teacher with its original distribution, neglecting the potential of incorrect prediction. This may contradict the motivation of hard-label learning through cross-entropy loss, which may lead to sub-optimal knowledge distillation on certain samples. To address this issue, we propose a novel logit processing scheme via a sorting mechanism. Specifically, our method has a two-fold goal: (1) fixing the incorrect prediction of the teacher based on the labels and (2) reordering the distribution in a natural way according to priority rank at once. As an easy-to-use, plug-and-play pre-processing, our sort method can be effectively applied to existing logit-based KD methods. Extensive experiments on the CIFAR-100 and ImageNet datasets demonstrate the effectiveness of our method.
 
-### Framework
+## Framework
 
 <div style="text-align:center"><img src="img/framework_1.png" width="60%" ></div>
 
-### Installation
+## Installation
 
 Environments:
 
@@ -26,7 +26,7 @@ sudo pip3 install -r requirements.txt
 sudo python3 setup.py develop
 ```
 
-### Getting started
+## Getting started
 
 ### 0. Wandb as the logger
 
@@ -59,7 +59,7 @@ For DKD:
   python3 tools/train.py --cfg configs/imagenet/r34_r18/dkd.yaml
   ```
 
-### Citation
+## Citation
 
 If this repo is helpful for your research, please consider citing the paper:
 
@@ -73,7 +73,7 @@ If this repo is helpful for your research, please consider citing the paper:
 }
 ```
 
-### Acknowledgement
+## Acknowledgement
 
 This work is based on [mdistiller](<https://github.com/megvii-research/mdistiller>). 
 Sincere gratitude to the contributors of mdistiller, CTKD, and LSKD for their amazing efforts.
