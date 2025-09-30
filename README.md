@@ -12,10 +12,13 @@ Install the package:
 
 ```
 sudo pip3 install -r requirements.txt
-sudo python3 setup.py develop
+sudo python setup.py develop
 ```
 
-# Citation
+### Acknowledgement
+Sincere gratitude to the contributors of mdistiller and CTKD for their distinguished efforts.
+
+### Citation
 
 If this repo is helpful for your research, please consider citing the paper:
 
