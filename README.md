@@ -69,6 +69,6 @@ MDistiller is released under the MIT license. See [LICENSE](LICENSE) for details
 
 # Acknowledgement
 
-This work is based on mdistiller. 
-Sincere gratitude to the contributors of mdistiller, CTKD, and LSKD for their distinguished efforts.
+This work is based on [mdistiller](<https://github.com/megvii-research/mdistiller>). 
+Sincere gratitude to the contributors of mdistiller, CTKD, and LSKD for their amazing efforts.
 
