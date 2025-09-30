@@ -44,29 +44,31 @@ sudo python3 setup.py develop
 
 0. Wandb as the logger
 
-- The registeration: <https://wandb.ai/home>.
+- The registration: <https://wandb.ai/home>.
 - If you don't want wandb as your logger, set `CFG.LOG.WANDB` as `False` at `mdistiller/engine/cfg.py`.
 
 1. Training on CIFAR-100
 
 - Download the `cifar_teachers.tar` at <https://github.com/megvii-research/mdistiller/releases/tag/checkpoints> and untar it to `./download_ckpts` via `tar xvf cifar_teachers.tar`.
-For KD:
+  
+### KD:
   ```bash
   python3 tools/train.py --cfg configs/cifar100/kd.yaml
   ```
-For DKD:
+### DKD:
   ```bash
   python3 tools/train.py --cfg configs/cifar100/dkd/res32x4_res8x4.yaml
   ```
 
 2. Training on ImageNet
 
-- Download the dataset at <https://image-net.org/> and put them to `./data/imagenet`
-For KD:
+- Download the dataset at <https://image-net.org/> and put them to `./data/imagenet`.
+  
+### KD:
   ```bash
   python3 tools/train.py --cfg configs/imagenet/r34_r18/kd.yaml
   ```
-For DKD:
+### DKD:
   ```bash
   python3 tools/train.py --cfg configs/imagenet/r34_r18/dkd.yaml
   ```
@@ -91,8 +93,6 @@ MDistiller is released under the MIT license. See [LICENSE](LICENSE) for details
 
 # Acknowledgement
 
-- Thanks for CRD and ReviewKD. We build this library based on the [CRD's codebase](https://github.com/HobbitLong/RepDistiller) and the [ReviewKD's codebase](https://github.com/dvlab-research/ReviewKD).
+This work is based on mdistiller. 
+Sincere gratitude to the contributors of mdistiller, CTKD, and LSKD for their distinguished efforts.
 
-- Thanks Yiyu Qiu and Yi Shi for the code contribution during their internship in MEGVII Technology.
-
-- Thanks Xin Jin for the discussion about DKD.
