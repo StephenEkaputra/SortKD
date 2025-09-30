@@ -1,6 +1,8 @@
 # Parameter-Free Logit Distillation via Sorting Mechanism [IEEE SPL'25]
 [![](https://img.shields.io/badge/arXiv-2508.16544-green.svg)](https://arxiv.org/abs/2508.16544) [![](https://img.shields.io/badge/paper-ieee.spl-red.svg)](https://ieeexplore.ieee.org/document/11141360/)
 
+### Misclassified Samples of Top-5
+
 <div style="text-align:center"><img src="img/intro.png" width="50%" ></div>
 
 ### Abstract
@@ -9,7 +11,7 @@
 
 ### Framework
 
-<div style="text-align:center"><img src="img/framework_1.png" width="50%" ></div>
+<div style="text-align:center"><img src="img/framework_1.png" width="60%" ></div>
 
 ### Installation
 
