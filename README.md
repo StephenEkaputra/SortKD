@@ -45,6 +45,8 @@ For DKD:
   ```bash
   python3 tools/train.py --cfg configs/cifar100/dkd/res32x4_res8x4.yaml
   ```
+For CTKD & LSKD:
+Download [CTKD](<https://github.com/zhengli97/CTKD>) and [LSKD](<https://github.com/sunshangquan/logit-standardization-KD>).
 
 ### 2. Training on ImageNet
 
