@@ -63,10 +63,6 @@ If this repo is helpful for your research, please consider citing the paper:
 }
 ```
 
-# License
-
-MDistiller is released under the MIT license. See [LICENSE](LICENSE) for details.
-
 # Acknowledgement
 
 This work is based on [mdistiller](<https://github.com/megvii-research/mdistiller>). 
