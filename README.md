@@ -78,5 +78,5 @@ If this repo is helpful for your research, please consider citing the paper:
 ## Acknowledgement
 
 This work is based on [mdistiller](<https://github.com/megvii-research/mdistiller>). 
-Sincere gratitude to the contributors of mdistiller, CTKD, and LSKD for their remarkable contributions.
+Sincere gratitude to mdistiller, CTKD, and LSKD for their remarkable contributions.
 
