@@ -28,12 +28,12 @@ sudo python3 setup.py develop
 
 ### Getting started
 
-0. Wandb as the logger
+### 0. Wandb as the logger
 
 - The registration: <https://wandb.ai/home>.
 - If you don't want wandb as your logger, set `CFG.LOG.WANDB` as `False` at `mdistiller/engine/cfg.py`.
 
-1. Training on CIFAR-100
+### 1. Training on CIFAR-100
 
 Download the `cifar_teachers.tar` at <https://github.com/megvii-research/mdistiller/releases/tag/checkpoints> and untar it to `./download_ckpts` via `tar xvf cifar_teachers.tar`.
   
@@ -46,7 +46,7 @@ For DKD:
   python3 tools/train.py --cfg configs/cifar100/dkd/res32x4_res8x4.yaml
   ```
 
-2. Training on ImageNet
+### 2. Training on ImageNet
 
 Download the dataset at <https://image-net.org/> and put them to `./data/imagenet`.
   
